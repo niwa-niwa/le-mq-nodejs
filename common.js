@@ -1,5 +1,6 @@
 export const ENV = Object.freeze({
   QUEUE: "queue-test",
+  ex: "exchange-test"
 });
 
 export function sleep(ms, random = 0) {
